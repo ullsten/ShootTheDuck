@@ -13,12 +13,12 @@ namespace ShootTheDuck
 
         void shotVoice() //Sound when shooting
         {                                                       //D:\00.Edugrade - Systemutvecklare\02.ApplicationsWindowsForm\1.Sounds\gun_gunshot.wav
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"https://github.com/ullsten/ShootTheDuck/blob/ac74bdb1be3faa39f3d3a096f03de5e069895c86/buuu.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"D:\00.Edugrade - Systemutvecklare\02.ApplicationsWindowsForm\ShootTheDuck\ShootTheDuck\Resources\gun_gunshot.wav");
             player.Play();
         }
         void missedVoice()
         {                                                       //D:\00.Edugrade - Systemutvecklare\02.ApplicationsWindowsForm\1.Sounds\buuu.wav
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"https://github.com/ullsten/ShootTheDuck/blob/2deacecaf9e6d05fdf921b071ce5b42302e92ae7/gun_gunshot.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"D:\00.Edugrade - Systemutvecklare\02.ApplicationsWindowsForm\ShootTheDuck\ShootTheDuck\Resources/buuu.wav");
             player.Play();
         }
         void functionShot() //Count for score + total shots
