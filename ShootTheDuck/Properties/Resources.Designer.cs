@@ -59,5 +59,23 @@ namespace ShootTheDuck.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream buuu {
+            get {
+                return ResourceManager.GetStream("buuu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gun_gunshot {
+            get {
+                return ResourceManager.GetStream("gun_gunshot", resourceCulture);
+            }
+        }
     }
 }
