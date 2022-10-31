@@ -53,7 +53,7 @@ namespace ShootTheDuck
         private void timer1_Tick(object sender, EventArgs e) //Movement of duck
         {
             int x, y;
-            x = random.Next(50,600);
+            x = random.Next(50,700);
             y = random.Next(0, 450);
             pictureBox1.Location= new Point(x,y);
             if (missedShots>=10)
